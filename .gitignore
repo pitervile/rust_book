@@ -1,1 +1,17 @@
 /target
+
+# Pliki backupu
+*.rs.bk
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logi
+*.log
+
+# Pliki tymczasowe
+*.tmp
+*.swp
