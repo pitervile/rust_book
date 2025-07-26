@@ -15,3 +15,8 @@
 # Pliki tymczasowe
 *.tmp
 *.swp
+
+# Systemowe pliki Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

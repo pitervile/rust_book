@@ -3,4 +3,11 @@ name = "rust_book"
 version = "0.1.0"
 edition = "2024"
 
+[profile.release]
+opt-level = "3"
+lto = true
+codegen-units = 1
+#panic = "abort"
+strip = true   # tylko od Rusta 1.71+
+
 [dependencies]
